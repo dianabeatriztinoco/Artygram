@@ -1,0 +1,244 @@
+
+
+.header__container {
+    display: flex;
+}
+
+.content-title {
+    width: 300px;
+    font-size: 2rem;
+}
+
+.splash-title {
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.grid__container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid__container-row {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.grid-pic {
+    margin: 10px;
+    height: 115px;
+    width: 130px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+        0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.main__container {
+    display: flex;
+}
+
+.content-title {
+    width: 300px;
+    font-size: 2rem;
+}
+
+.content__container {
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.splash__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 70px;
+}
+.log-in-button {
+    margin-top: 20px;
+    background-color: #b2dffc;
+
+    border: 0px;
+    height: 33.33px;
+
+    color: #f5f7f9;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.5s;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+    text-decoration: none;
+}
+
+.log-in-button:hover {
+    background-color: #0095f6;
+    cursor: pointer;
+}
+
+.sign-up-button {
+    margin-top: 20px;
+    border: 0px;
+    background-color: #a5f1a9;
+
+    height: 33.33px;
+    /* letter-spacing: 0.1rem; */
+    color: #f5f7f9;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.5s;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+    text-decoration: none;
+}
+
+.sign-up-button:hover {
+
+    background-color: #5cd376;
+
+    cursor: pointer;
+}
+.demo-button {
+    margin-top: 20px;
+    background-color: #fdc9fd;
+
+    border: 0px;
+    height: 33.33px;
+
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: background-color 0.5s;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+    text-decoration: none;
+}
+.demo-button:hover {
+    background-color: #eb54c0;
+
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.footer-link {
+    text-decoration: None;
+    margin: 15px;
+    color: rgb(65, 65, 65);
+    font-size: 0.8rem;
+}
+
+.search-bar {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+.search-bar {
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    background-color: #eee;
+    border: solid 1px rgb(143, 143, 143);
+}
+
+
+.footer__container {
+    display: flex;
+    align-items:center;
+    position: fixed;
+    /* left: 20%;
+    right: 20%; */
+    bottom: 0px;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+
+.personal-info__container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0px 10px;
+    justify-content: center;
+}
+
+.personal-info__container a {
+    margin: unset;
+}
+.portfolio{
+    text-decoration: unset;
+    color: black;
+}
+.portfolio:hover{
+    text-decoration: underline;
+}
+
+.linkin-github__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fa-linkedin{
+    font-size: 30px;
+    color: #0A66C2;
+}
+.fa-github{
+    font-size: 30px;
+}
+
+/* .footer-link {
+    text-decoration: None;
+    margin: 40px;
+    color: rgb(65, 65, 65);
+    font-size: 0.8rem;
+} */
+
+.project-repo__container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.party {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
